@@ -1,0 +1,21 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+.ipynb_checkpoints/
+
+# data (원본은 /mnt/d/data/kamp_ai 에 보관, 리포에 커밋하지 않음)
+data/
+*.csv
+*.parquet
+
+# outputs
+outputs/
+*.png
+*.joblib
+*.pkl
+
+# etc
+.DS_Store
+.env
