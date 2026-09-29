@@ -19,11 +19,11 @@
 ## 진행
 - [x] `notebooks/01_eda.ipynb` — 구조 점검, 취득 사이클 복원, normal/outlier 시간관계 검증, 신호 비교
 - [x] `notebooks/02_eda_segment_patterns.ipynb` — 세그먼트 단위 유형 파악(normal 국면 존재 여부, outlier 내 이상 단계 분류, 시간순 악화 궤적 검증)
-- [ ] `03_feature.ipynb` — 사이클 단위 피처 설계
-- [ ] `04_model.ipynb` — 정상 기준 이상탐지 모델
+- [x] `notebooks/03_feature.ipynb` — 피처(rms/band_purity/env_cv) 설계, 정상 내부 오경보율 측정, 결합 점수
+- [ ] `04_model.ipynb` — 정상 기준 이상탐지 모델 ("N 중 M회" 지속성 규칙 검증 포함)
 - [ ] `05_error_analysis.ipynb` — 미탐지·오경보 조건 분석
 
-정리 문서: `docs/01_eda_findings.md` (01·02 결과 종합, 다음 단계 상세)
+정리 문서: `docs/01_eda_findings.md` (01~03 결과 종합, 다음 단계 상세)
 
 ## 환경
 conda `my_base` (pandas 2.2.3 / scikit-learn 1.6.1)
