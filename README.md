@@ -24,7 +24,8 @@
 - [ ] `04_model.ipynb` — 정상 기준 이상탐지 모델 ("N 중 M회" 지속성 규칙 검증 포함)
 - [ ] `05_error_analysis.ipynb` — 미탐지·오경보 조건 분석
 
-정리 문서: `docs/01_eda_findings.md` (01~03 결과 종합, 다음 단계 상세)
+정리 문서: `docs/01_eda_findings.md` (01~03 결과 종합·근거, 다음 단계 상세),
+`docs/02_feature_candidates.md` (피처 후보 현재 상태 — 자주 갱신됨)
 
 ## 환경
 conda `my_base` (pandas 2.2.3 / scikit-learn 1.6.1)
