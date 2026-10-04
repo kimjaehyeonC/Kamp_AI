@@ -22,11 +22,14 @@
 - [x] `notebooks/02_eda_segment_features.ipynb` — 전체 세그먼트 지표 EDA(지표 시계열, 길이별 분포·결측, 대표 원시 파형 비교)
 - [x] `notebooks/03_feature.ipynb` — 사이클 지표의 규칙 기반 평가(정상 내부 오경보율, 결합 점수, 길이별 오경보·미탐률)
 - [x] `notebooks/04_rule_base.ipynb` — 완전중복 제거, 정상 60/20/20 분할, 6개 피처의 99.9% 정적 규칙 및 OR 조합 평가(ML 비교 기준선)
+- [x] `notebooks/05_oneclass.ipynb` — Mahalanobis/Isolation Forest/One-Class SVM 비교, 설명력 분석(기여도 분해·permutation importance·SHAP)
 - [ ] `04_model.ipynb` — 정상 기준 이상탐지 모델 ("N 중 M회" 지속성 규칙 검증 포함)
 - [ ] `05_error_analysis.ipynb` — 미탐지·오경보 조건 분석
 
 정리 문서: `docs/01_eda_findings.md` (01~03 결과 종합·근거, 다음 단계 상세),
-`docs/02_feature_candidates.md` (피처 후보 현재 상태 — 자주 갱신됨)
+`docs/02_feature_candidates.md` (피처 후보 현재 상태 — 자주 갱신됨),
+`docs/03_modeling_strategy.md` (모델 학습·평가 전략)
 
 ## 환경
-conda `my_base` (pandas 2.2.3 / scikit-learn 1.6.1)
+- `my_base` (pandas 2.2.3 / scikit-learn 1.6.1 / shap 0.52.0) — 01~05 노트북 전체
+- `my_base2` (torch 2.6.0+cu126 / shap 0.51.0) — 향후 딥러닝 비교 실험용(아직 미사용)
