@@ -1,0 +1,10 @@
+# 제출 파이프라인(notebooks/00_submission_pipeline.ipynb, scripts/run_pipeline.py) 실행에 필요한 패키지.
+# 설치: pip install -r requirements.txt  (Python 3.12 기준, conda 환경 my_base와 동일 버전)
+numpy==2.2.2
+scipy==1.15.1
+pandas==2.2.3
+scikit-learn==1.6.1
+
+# 아래는 탐색 과정 노트북(01~07, 그림·SHAP 설명력 포함)에만 필요 — 제출 파이프라인 자체에는 불필요.
+matplotlib==3.10.0
+shap==0.52.0
